@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coast 2 Coast CRE Academy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #002B5B;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+        header img {
+            max-width: 150px;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .cta-header-button {
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .cta-header-button:hover {
+            background-color: #0056b3;
+        }
+        .hero {
+            background: url('hero-background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .intro-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 20px;
+            flex-direction: column;
+        }
+        .intro-logo {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+            display: block;
+        }
+        .intro-section .content {
+            max-width: 600px;
+            text-align: center;
+        }
+        .intro-section .cta-button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+        .intro-section .cta-button:hover {
+            background-color: #0056b3;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .curriculum {
+            background-color: #f9f9f9;
+            padding: 50px 20px;
+        }
+        .curriculum ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .curriculum li {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        .does-this-sound-like-you {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+        }
+        .does-this-sound-like-you ul {
+            list-style-type: disc;
+            padding-left: 40px;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .does-this-sound-like-you li {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        .about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+        }
+        .about img {
+            border-radius: 50%;
+            max-width: 200px;
+        }
+        .about div {
+            max-width: 600px;
+            text-align: center;
+        }
+        .about h2 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        .testimonials {
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+        }
+        .testimonial {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        .faq {
+            padding: 50px 20px;
+        }
+        #mc_embed_shell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 400px;
+            padding: 50px;
+        }
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px Helvetica, Arial, sans-serif;
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #002B5B;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        footer nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        footer nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        footer nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C2C CRE_Academy_Logo.jpg" alt="Coast 2 Coast CRE Academy Logo">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+            <a class="cta-header-button" href="https://calendly.com/coast2coastcre/30min" target="_blank">Schedule a Consultation</a>
+        </nav>
+    </header>
+    <div class="intro-section" id="home">
+        <img src="Commercial_Real_Estate_Investing_Logo.jpg" alt="Commercial Real Estate Investing Logo" class="intro-logo">
+        <div class="content">
+            <h1>Master Commercial Real Estate Investing</h1>
+            <p>Learn to find, analyze, and acquire profitable CRE deals with expert guidance.</p>
+            <a class="cta-button" href="https://calendly.com/coast2coastcre/30min" target="_blank">Schedule a Consultation</a>
+        </div>
+    </div>
+    <section class="curriculum" id="programs">
+        <h2>What You'll Learn</h2>
+        <ul>
+            <li>Understanding Market Trends</li>
+            <li>Analyzing CRE Opportunities</li>
+            <li>Structuring and Financing Deals</li>
+            <li>Building a Winning Portfolio</li>
+        </ul>
+    </section>
+    <section class="does-this-sound-like-you">
+        <h2>DOES THIS SOUND LIKE YOU?</h2>
+        <ul>
+            <li>I’m ready to gain control of my life, unlock financial freedom, and create generational wealth.</li>
+            <li>I want the tools and knowledge to confidently build my own path to financial prosperity.</li>
+            <li>I’ve realized that the traditional work model isn’t enough for the life I want.</li>
+            <li>I’m seeking financial predictability and a stable foundation for my future.</li>
+            <li>I want to make a meaningful difference, transform communities, and leave a lasting legacy.</li>
+        </ul>
+    </section>
+    <section class="about" id="about">
+        <img src="Tripp-Greene.png" alt="Tripp Greene">
+        <div>
+            <h2>About Tripp Greene</h2>
+            <p>With over a decade of experience in commercial real estate, Tripp Greene has closed millions in transactions and mentored countless investors. His passion for teaching and expertise in underwriting ensures you’ll gain real-world knowledge to succeed in CRE.</p>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>Success Stories</h2>
+        <p class="testimonial">"Coast 2 Coast CRE Academy transformed how I approach real estate investing. The strategies and insights were game-changers!"</p>
+        <p class="testimonial">"I went from knowing nothing about CRE to analyzing deals like a pro. Highly recommended!"</p>
+    </section>
+    <section class="faq" id="resources">
+        <h2>Frequently Asked Questions</h2>
+        <p><strong>Do I need prior experience in real estate?</strong><br>No, the program is designed for both beginners and experienced investors.</p>
+        <p><strong>How long does the program take?</strong><br>It’s self-paced, so you can learn on your own schedule.</p>
+    </section>
+    <section id="contact">
+        <div id="mc_embed_shell">
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+            <div id="mc_embed_signup">
+                <form action="https://us19.list-manage.com/subscribe/post?u=da452802a9fd05dd36be811f9&amp;id=f92288562c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                    <div id="mc_embed_signup_scroll">
+                        <h2 style="text-align: center;">Subscribe</h2>
+                        <div class="indicates-required" style="text-align: center;"><span class="asterisk">*</span> indicates required</div>
+                        <div class="mc-field-group">
+                            <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                            <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+                        </div>
+                        <div class="mc-field-group">
+                            <label for="mce-FNAME">First Name</label>
+                            <input type="text" name="FNAME" class="text" id="mce-FNAME" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+                        </div>
+                        <div class="mc-field-group">
+                            <label for="mce-LNAME">Last Name</label>
+                            <input type="text" name="LNAME" class="text" id="mce-LNAME" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+                        </div>
+                        <div id="mce-responses" class="clear" style="display: none;">
+                            <div class="response" id="mce-error-response"></div>
+                            <div class="response" id="mce-success-response"></div>
+                        </div>
+                        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                            <input type="text" name="b_da452802a9fd05dd36be811f9_f92288562c" tabindex="-1" value="">
+                        </div>
+                        <div class="clear" style="text-align: center;">
+                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe" style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Coast 2 Coast CRE Academy. All Rights Reserved.</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </footer>
+</body>
+</html>
